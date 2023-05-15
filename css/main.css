@@ -1,0 +1,115 @@
+
+.home{
+    background-image: url(../imgs/events-heavenly-header.jpg);
+    height: 0vh;
+    width: 0;
+    background-size: cover;
+    background-position: center center;
+}
+.home .overlay{
+    background-color: rgba(214, 46, 51, 0.6);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+#open{
+    position: absolute;
+    left: 1%;
+    cursor: pointer;
+    /* transition: 1s; */
+}
+.home-size{
+    font-size: 50px;
+}
+.home .overlay .navbar-menu{
+    height: 100% !important;
+    width: 0px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    /* transition: 1s; */
+    padding-top: 60px;
+    justify-content: flex-start;
+    background: #414658;
+    flex-direction: column;
+}
+.home .overlay .text-content{
+    display: none;
+}
+
+.home .overlay .navbar-menu i{
+    padding-bottom: 40px;
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.home .overlay .navbar-menu .links{
+    padding-top: 80px;
+
+}
+.home .overlay .navbar-menu i:hover{
+    color: rgba(214, 46, 51, 0.4) !important;
+    font-size: 26px !important;
+}
+.tran{
+    transition: all .5s;
+}
+.home .overlay .navbar-menu .links li a:hover{
+    color: rgba(214, 46, 51, 0.4) !important;
+    font-size: 26px !important;
+}
+
+.duration{
+    display: none;
+}
+
+.duration .container .row{
+    background-color: rgba(214, 46, 51, 0.6);
+}
+
+.duration .container .row .box p{   
+    background-color: #ccc;
+    padding: 10px;
+    display: none;
+    color: #333;
+    line-height: 1.7;
+
+}
+.duration .container .row .box .singer{
+    cursor: pointer;
+}
+.details{
+    display: none;
+    width: 100%;
+    height: 30vh!important;
+    background-image: url("../imgs/invitation-2508607__340.jpg");
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center top;
+}
+.details .overlay{
+    background-color: rgba(214, 46, 51, 0.6);
+}
+.details .overlay .container .row .box{
+    border: 1px solid #fff;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    align-items: center;
+    margin-left: 30px;
+    /* width: calc(100  / 4 -100px) !important; */
+}
+.contact{
+    display: none;
+}
+body>section.contact.py-5.fs-6>div>div>div:nth-child(2)>form>button{
+    border: none;
+}
